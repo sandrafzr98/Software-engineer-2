@@ -1,0 +1,18 @@
+
+  button.CO-H {
+    position:absolute;
+    width:7%;
+    height:7%;
+    left:85%;
+    top:8%;
+    background-color: rgb(51,0,68) ;
+    color: rgb( 247 , 241 , 237);
+    border: 2px solid rgb( 247 , 241 , 237);
+    border-radius: 0.5em;
+    z-index:1;
+  }
+  button.CO-H:hover {
+    background-color: rgb(147, 147, 255);
+    color: rgb(0,0,68);
+    border: 2px solid rgb(147, 147, 255);
+  }

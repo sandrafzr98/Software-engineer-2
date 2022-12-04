@@ -1,0 +1,61 @@
+body#exercice1_body{
+    left:-2%;
+    width: 100%;
+    background-color: #DDDD;
+ }
+ #exercice1_conteneur{
+    margin:0;
+    padding:10px;
+    
+ }
+ .exercice1_fieldset{
+    position:absolute;
+    margin:80px;
+    border:none;
+    background-color:#FFFFFF;
+    border-radius:10px;
+    padding:20px;
+    width:40%;
+    left:20%;
+ }
+ .exercice1_legend{
+    font-family:verdana, arial, sans-serif;
+    font-size:14pt;
+    font-weight:bold;
+    color:#FFFFFF;
+    margin:10px;
+    padding:10px 20px 10px 20px;
+    background-color:rgb(0,0,58);
+    border-radius:4px;
+ }
+ .exercice1_label{
+    display:inline-block;
+    width:200px;
+    font-family:verdana, arial, sans-serif;
+    font-size:10pt;
+    padding:10px;
+ }
+ .exercice1_input{
+    display:inline-block;
+    width:200px;
+    padding:6px;
+ }
+ .exercice1_champ{
+    outline:none;
+    border:solid 1px #AAAAAA;
+    padding:10px;
+    border-radius:4px;
+    font-family:verdana, arial, sans-serif;
+ }
+ input[type="text"].exercice1_champ:focus, input[type="password"].exercice1_champ:focus{
+    background-color:#EEEEEE;
+ }
+ input[type="submit"].exercice1_champ{
+    background-color:rgb(147,147,255);
+    color:rgb(0,0,58);
+    padding:6px 20px 6px 20px;
+    border:none;
+    cursor:pointer;
+    padding:10px;
+    width:160px;
+ }
